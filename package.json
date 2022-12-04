@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-crypto-world",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.2.0",
+    "framer-motion": "^7.6.18",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-sparklines": "^1.7.0",
+    "styled-components": "^5.3.6",
+    "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7"
+  }
+}
