@@ -1,4 +1,4 @@
-import React from 'react'
+import Link from 'next/link';
 import SectionTitle from '../SectionTitle';
 // Icons
 import { CiStar } from 'react-icons/ci';
@@ -6,7 +6,6 @@ import { CiStar } from 'react-icons/ci';
 import { CoinsListContentStyles, CoinsListCtaStyles, CoinsListTableStyles } from './Coins.styles';
 // Sparklines
 import { Sparklines, SparklinesLine } from 'react-sparklines';
-import Link from 'next/link';
 
 const Coins = ({ coins }) => {
   return (

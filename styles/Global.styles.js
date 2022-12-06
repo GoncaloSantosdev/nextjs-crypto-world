@@ -91,6 +91,10 @@ const GlobalStyle = createGlobalStyle`
     .bold{
         font-weight: 600;
     }
+
+    .purple{
+        color: var(--purple);
+    }
 `;
 
 export default GlobalStyle;
